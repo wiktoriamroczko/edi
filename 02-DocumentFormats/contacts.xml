@@ -22,4 +22,14 @@
 		<phone type="work">6660611</phone>
 		<notes>my best friend</notes>
 	</contact>
+	<contact>
+		<name>Alicja</name>
+		<name>Karolina</name>
+		<surname>Nowak</surname>
+		<email type="personal">anowak@gmail.com</email>
+		<email type="business">Alicja.Nowak.@gmail.com</email>
+		<phone type="home">839402943</phone>
+		<phone type="work">999283444</phone>
+		<notes>friend</notes>
+	</contact>
 </contacts>
