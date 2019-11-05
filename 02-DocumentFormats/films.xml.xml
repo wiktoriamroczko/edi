@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<movies>
+    <films genre="Western">
+        <movie>
+            <title>"Django"</title>
+            <year>2012</year>
+            <personal_rating>10/10</personal_rating>
+            <director>Quentin Tarantino</director>
+            <actors>Jamie Foxx, Christoph Waltz, Leonardo DiCaprio</actors>
+            </movie>
+    </films>
+    <films genre="Thriller">
+        <movie>
+            <title>"Fight Club"</title>
+            <year>1999</year>
+            <personal_rating>9/10</personal_rating>
+            <director>David Fincher</director>
+            <actors>Edward Norton, Brad Pitt, Helena Bonham Carter</actors>
+        </movie>
+        <movie>
+            <title>"Shutter Island"</title>
+            <year>2010</year>
+            <personal_rating>9/10</personal_rating>
+            <director>Martin Scorsese</director>
+            <actors>Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley</actors>
+        </movie>
+        <movie>
+            <title>"The Silence of the Lambs"</title>
+            <year>1991</year>
+            <personal_rating>7/10</personal_rating>
+            <director>Jonathan Demme</director>
+            <actors>Anthony Hopkins, Jodie Foster, Ted Levine</actors>
+        </movie>
+    </films>
+    <films genre="Horror">
+        <movie>
+            <title>"Deranged"</title>
+            <year>1974</year>
+            <personal_rating>10/10</personal_rating>
+            <director>Alan Ormsby, Jeff Gillen</director>
+            <actors>Marian Waldman, Roberts Blossom, Robert McHeady</actors>
+        </movie>
+    </films>
+</movies>
