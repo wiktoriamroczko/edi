@@ -9,11 +9,16 @@
 
 		<script>
 			// read user's number (popup window)
-			
+			var enterNumber = parseInt(prompt('Podaj liczbę z zakresu 1 - 5:'));
 			// create a random number
-			
+			var number = Math.floor(Math.random() * (6 - 1)+1);
 			// compare the numbers
-			
+			if(enterNumber == number){
+				alert('Good work!')
+			}
+			else{
+				alert('Sorry')
+			}
 			// show results (popup window)
 			
 		</script>
