@@ -6,7 +6,28 @@
 	</head>
 	<body>
 		<h1>Create mobile phone</h1>
+		<div id="dsa"></div>
 		<script>
+			var phone = {
+				color : "pink",
+				numer : 791500089,
+				use : false,
+				sensors : ["fingerprint", "accelerometer", "gyro", "proximity"],
+				platform : {
+					OS : "Android",
+					Chipset : "Exynos 9611",
+					CPU : "Octa-core",
+					GPU : "Mali-G72 MP3"
+				}
+			}
+			var x = "";
+			function dane(){
+				for (i in phone){
+					x += "<br>" + i + ":"+"\n" + phone[i];
+				}
+				document.getElementById("dsa").innerHTML = x;
+			}
 		</script>
+		<button type="button" onclick="dane();">Click</button>
 	</body>
 </html>
