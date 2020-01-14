@@ -23,11 +23,20 @@
 			var x = "";
 			function dane(){
 				for (i in phone){
-					x += "<br>" + i + ":"+"\n" + phone[i];
+					if (i=="platform"){
+						break;
+					}
+					x += "\n" + i + ":" + phone[i];
 				}
-				document.getElementById("dsa").innerHTML = x;
+				x += "\n Platform: "
+				for(i in phone.platform){
+					x += "\n" + i + ":" + phone.platform[i];
+				}
+				
+				//document.getElementById("dsa").innerHTML = x;
+				alert(x);
 			}
 		</script>
-		<button type="button" onclick="dane();">Click</button>
+		<button type="button" onclick="window.open(dane());">Click</button>
 	</body>
 </html>
